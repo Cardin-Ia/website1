@@ -12,6 +12,7 @@ body {
 .loading text {
     font-size: 100px;
     color: white;
+    opacity: 1;
 }
 
 .bg {
