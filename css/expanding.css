@@ -42,7 +42,7 @@ body {
 }
 
 .panel.active h3 {
-    opacity: 0;
+    opacity: 1;
 }
 
 @media (max-width: 480px) {
