@@ -9,7 +9,10 @@ body {
     margin: 0;
 }
 
-.button {
+.btn {
     height: 50px;
     position: relative;
+    background-color: purple;
+    color: white;
+    font-size: 25px;
 }
