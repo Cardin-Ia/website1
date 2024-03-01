@@ -17,4 +17,5 @@ body {
     font-size: 25px;
     margin: 8px;
     border: 2px solid black;
+    cursor: pointer;
 }
