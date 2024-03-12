@@ -45,7 +45,6 @@ body {
 .hero h1 {
     font-size: 46px;
     margin: 0 0 0px;
-    text-align: left;
 }
 
 .hero p {
@@ -162,8 +161,4 @@ body {
 .nav2 a:hover {
     color: rgb(192,57,43);
     font-weight: bold;
-}
-
-h1 {
-    margin: 0;
 }
