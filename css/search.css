@@ -4,8 +4,12 @@
 }
 
 body {
-    background-color: #8B0000;
-
+    background-color: red;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
 
 }
 
