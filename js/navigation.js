@@ -13,9 +13,9 @@ function fixNav() {
 
 nav2 = document.querySelector('.nav2')
 
-window.addEventListener('scroll', fixNav)
+window.addEventListener('scroll', fixNav2)
 
-function fixNav() {
+function fixNav2() {
     console.log(window.scrollY)
     if (window.scrollY > 223) {
         nav2.classList.add('active')
