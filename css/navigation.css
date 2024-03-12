@@ -163,3 +163,7 @@ body {
     color: rgb(192,57,43);
     font-weight: bold;
 }
+
+h1 {
+    margin: 0;
+}
