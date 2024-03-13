@@ -1,4 +1,5 @@
 btn = document.querySelector('.btn')
+btn1 = document.querySelector('.btn1')
 
 btn.addEventListener('click', () => {
     var randomNumber1 = Math.floor(Math.random() * 256);
@@ -10,7 +11,6 @@ btn.addEventListener('click', () => {
 
 })
 
-btn1 = document.querySelector('.btn1')
 
 btn1.addEventListener('click', () => {
     var randomNumber1 = Math.floor(Math.random() * 256);
@@ -18,5 +18,5 @@ btn1.addEventListener('click', () => {
     var randomNumber3 = Math.floor(Math.random() * 256);
     var rgb = "rgb(" + randomNumber1 + "," + randomNumber2 + "," + randomNumber3 + ")";
     document.body.style.backgroundColor = rgb;
-    classList.add('instant-color-change');
+    document.body.classList.add('instant-color-change')
 })
