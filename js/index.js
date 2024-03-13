@@ -18,4 +18,5 @@ btn1.addEventListener('click', () => {
     var rgb = "rgb(" + randomNumber1 + "," + randomNumber2 + "," + randomNumber3 + ")";
     document.body.style.backgroundColor = rgb;
 
+    document.body.classList.add('instant-color-change');
 })
