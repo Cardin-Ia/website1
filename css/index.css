@@ -1,6 +1,6 @@
 body {
     background-color: #00A36C;
-    transition: background-color 1.5s;
+    transition: background-color 1.8s;
 }
 
 body.instant-color-change {
