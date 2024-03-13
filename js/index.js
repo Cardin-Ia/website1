@@ -6,6 +6,7 @@ btn.addEventListener('click', () => {
     var randomNumber3 = Math.floor(Math.random() * 256);
     var rgb = "rgb(" + randomNumber1 + "," + randomNumber2 + "," + randomNumber3 + ")";
     document.body.style.backgroundColor = rgb;
+    document.body.classList.remove('instant-color-change');
 
 })
 
