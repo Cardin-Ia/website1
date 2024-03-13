@@ -46,10 +46,10 @@ h1 {
     right: 0px;
     font-size: 16px;
     color: white;
-    background-color: indigo;
     border: 0;
     height: 60px;
     width: 250px;
     cursor: pointer;
     font-weight: bold;
+    visibility: hidden;
 }
