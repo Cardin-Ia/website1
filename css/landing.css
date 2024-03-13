@@ -191,7 +191,7 @@ button, input[type ='submit'] {
 .nav {
     position: fixed;
     background-color: #222;
-    top: 0;
+    bottom: 0;
     left: 0;
     right: 0;
     transition: all 0.3s ease-in-out;
