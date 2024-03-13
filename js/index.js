@@ -1,5 +1,4 @@
 btn = document.querySelector('.btn')
-btn1 = document.querySelector('.btn1')
 
 btn.addEventListener('click', () => {
     var randomNumber1 = Math.floor(Math.random() * 256);
